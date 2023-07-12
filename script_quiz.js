@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
     var currentQuestion = 0;
     var totalQuestions = 13;
@@ -105,29 +107,29 @@ if (H > E) {
     if (R > N) {
         if (F > G) {
             if (M > I) {
-                window.location.href = "result01.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result01";
             } else {
-                window.location.href = "result09.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result09";
             }
         } else {
             if (M > I) {
-                window.location.href = "result05.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result05";
             } else {
-                window.location.href = "result13.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result13";
             }
         }
     } else {
         if (F > G) {
             if (M > I) {
-                window.location.href = "result03.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result03";
             } else {
-                window.location.href = "result11.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result11";
             }
         } else {
             if (M > I) {
-                window.location.href = "result07.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result07";
             } else {
-                window.location.href = "result15.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result15";
             }
         }
     }
@@ -135,29 +137,29 @@ if (H > E) {
     if (R > N) {
         if (F > G) {
             if (M > I) {
-                window.location.href = "result02.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result02";
             } else {
-                window.location.href = "result10.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result10";
             }
         } else {
             if (M > I) {
-                window.location.href = "result06.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result06";
             } else {
-                window.location.href = "result14.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result14";
             }
         }
     } else {
         if (F > G) {
             if (M > I) {
-                window.location.href = "result04.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result04";
             } else {
-                window.location.href = "result12.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result12";
             }
         } else {
             if (M > I) {
-                window.location.href = "result08.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result08";
             } else {
-                window.location.href = "result16.html";
+                window.location.href = "http://www.baumealame.com/game/myreadertype/result16";
             }
         }
     }
