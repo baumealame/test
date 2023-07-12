@@ -15,9 +15,7 @@ border-bottom:1px solid #584c43;z-index: 10;text-align: center;}
     text-align: center;}
 .wrapper_start_body {position: relative;
     text-align: center;
-    height: calc(100vh - 180px);
-    height: -webkit-fill-available;
-    height: fill-available;
+    height: calc(var(--vh, 1vh) * 100 - 180px);
     display: block;
     margin-bottom: 20px;
     z-index: 1;
@@ -60,9 +58,7 @@ span.check {display:inline-block;width:24px;height:24px;border:1px solid #584c43
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: calc(100vh - 50px);
-    min-height: -webkit-fill-available;
-    min-height: fill-available;
+    min-height: calc(var(--vh, 1vh) * 100 - 50px);
 }
 
 .start_page {
@@ -70,9 +66,7 @@ span.check {display:inline-block;width:24px;height:24px;border:1px solid #584c43
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
-    min-height: fill-available;
+    min-height: clac(var(--vh, 1vh) * 100);
 }
 
 #prevBtn {position:absolute;display: inline-block;
