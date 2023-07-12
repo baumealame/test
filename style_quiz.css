@@ -1,11 +1,27 @@
+.wrapper_form {
+    position: relative;
+    height: auto;
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;}
 
-.wrapper_body {height:100%;
+
+.form-group {
+    position:relative;
+    display:block;
+    margin:0 auto;}
+
+.question{
+    position: relative;
     display: flex;
-    width:100%;
-    max-width:500px;
-    margin:0 auto;
     flex-direction: column;
-    min-height: 100vh;}
+    min-height: 100vh;
+}
+
+#prevBtn {position:absolute;display: inline-block;cursor: pointer;border-radius:30px;font-size:13px;top:0;left:0;line-height:13px;padding:4px 12px;border:1px solid #7c7067;z-index:10}
 
 
 .wrapper_result {
@@ -76,7 +92,7 @@ a {color:#584c43;text-decoration: none;}
 .wrapper_quiz {
     position:relative;
     text-align: center;
-    min-height: 600px;
+    min-height: 300px;
     height:auto;
     display:block;
     margin-bottom: auto;
@@ -87,8 +103,6 @@ a {color:#584c43;text-decoration: none;}
 
 .wrapper_answer {
     display:block;
-    width:100%;
-    max-width:500px;
     margin:0 auto;
     text-align:center;
     z-index: 10;}
@@ -96,7 +110,6 @@ a {color:#584c43;text-decoration: none;}
 .answer_btn {
     display: block;
     cursor: pointer;
-    width:100%;
     border:1px solid #7c7067;
     border-radius:30px;
     padding:12px 5px;

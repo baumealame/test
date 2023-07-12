@@ -14,172 +14,171 @@
 <body>
 
 <div class="wrapper_body">
+    <div class="wrapper_form">
     
-    
-<form>
-
-      <div class="form-group">
-          <div class="row input-group" id="q1">
-              <div class="wrapper_quiz">
-                <label for="v1">1</label>
-                <p>나는 책을</p>
-              </div>
-              <div id="radioBtn" class="wrapper_answer">
-                <a class="answer_btn" data-toggle="v1" data-title="e">틈틈이 읽는 편</a>
-                <a class="answer_btn" data-toggle="v1" data-title="h">각잡고 읽는 편</a>
-              </div>  
-              <input type="hidden" name="v1" id="v1" value="e">
-          </div>
-          
-          <div class="row input-group" id="q2">
-              <div class="wrapper_quiz">
-                  <label for="v2">2</label>
-                  <p>내가 더 단련하고 싶은 것은?</p>
-              </div>
-              <div id="radioBtn" class="wrapper_answer">
-                <a class="answer_btn" data-toggle="v2" data-title="r">단호할 수 있는 지식</a>
-                <a class="answer_btn" data-toggle="v2" data-title="n">관대할 수 있는 지성</a>
-              </div>  
-              <input type="hidden" name="v2" id="v2" value="s">
-          </div>
-          
-          <div class="row input-group">
-              <div class="wrapper_quiz">
-                  <label for="v3">3</label>
-                  <p>페미니즘은</p>
-              </div>
-              <div id="radioBtn" class="wrapper_answer">
-                <a class="answer_btn" data-toggle="v3" data-title="f">필수불가결하다</a>
-                <a class="answer_btn" data-toggle="v3" data-title="g">때로 어렵다</a>
-              </div>  
-              <input type="hidden" name="v3" id="v3" value="t">
-          </div>
-          
-          <div class="row input-group">
-              <div class="wrapper_quiz">
-                  <label for="v4">4</label>
-                  <p>더 공감되는 태도는</p>
+        <form>
+              <div class="form-group">
+                  <div id="prevBtn">이전</div>
+                  <div class="question" id="question1">
+                      <div class="wrapper_quiz">
+                        <label for="v1">1</label>
+                        <p>나는 책을</p>
+                      </div>
+                      <div id="radioBtn" class="wrapper_answer">
+                        <a class="answer_btn answerBtn" data-toggle="v1" data-title="e">틈틈이 읽는 편</a>
+                        <a class="answer_btn answerBtn" data-toggle="v1" data-title="h">각잡고 읽는 편</a>
+                      </div>  
+                      <input type="hidden" name="v1" id="v1" value="e">
                   </div>
-              <div id="radioBtn" class="wrapper_answer">
-                <a class="answer_btn" data-toggle="v4" data-title="m">내 말이 맞는데 어쩌라고?</a>
-                <a class="answer_btn" data-toggle="v4" data-title="i">투쟁을 포기한 순간 노예가 된다.</a>
-              </div>  
-              <input type="hidden" name="v4" id="v4" value="j">
-          </div>
-          
-          <div class="row input-group">
-              <div class="wrapper_quiz">
-                <label for="v5">5</label>
-                 <p>둘 중 고른다면</p>
-              </div>
-              <div id="radioBtn" class="wrapper_answer">
-                <a class="answer_btn" data-toggle="v5" data-title="h">의미 있는 책</a>
-                <a class="answer_btn" data-toggle="v5" data-title="e">재미있는 책</a>
-              </div>  
-              <input type="hidden" name="v5" id="v5" value="e">
-          </div>
-          
-          <div class="row input-group">
-              <div class="wrapper_quiz">
-              <label for="v6">
-                  6</label>
-                  <p>내가 더 분노하는 때는?</p>
-              </div>
+
+                  <div class="question" id="question2">
+                      <div class="wrapper_quiz">
+                          <label for="v2">2</label>
+                          <p>내가 더 단련하고 싶은 것은?</p>
+                      </div>
+                      <div id="radioBtn" class="wrapper_answer">
+                        <a class="answer_btn answerBtn" data-toggle="v2" data-title="r">단호할 수 있는 지식</a>
+                        <a class="answer_btn answerBtn" data-toggle="v2" data-title="n">관대할 수 있는 지성</a>
+                      </div>  
+                      <input type="hidden" name="v2" id="v2" value="s">
+                  </div>
+
+                  <div class="question" id="question3">
+                      <div class="wrapper_quiz">
+                          <label for="v3">3</label>
+                          <p>페미니즘은</p>
+                      </div>
+                      <div id="radioBtn" class="wrapper_answer">
+                        <a class="answer_btn answerBtn" data-toggle="v3" data-title="f">필수불가결하다</a>
+                        <a class="answer_btn answerBtn" data-toggle="v3" data-title="g">때로 어렵다</a>
+                      </div>  
+                      <input type="hidden" name="v3" id="v3" value="t">
+                  </div>
+
+                  <div class="question" id="question4">
+                      <div class="wrapper_quiz">
+                          <label for="v4">4</label>
+                          <p>더 공감되는 태도는</p>
+                          </div>
+                      <div id="radioBtn" class="wrapper_answer">
+                        <a class="answer_btn answerBtn" data-toggle="v4" data-title="m">내 말이 맞는데 어쩌라고?</a>
+                        <a class="answer_btn answerBtn" data-toggle="v4" data-title="i">투쟁을 포기한 순간 노예가 된다.</a>
+                      </div>  
+                      <input type="hidden" name="v4" id="v4" value="j">
+                  </div>
+
+                  <div class="question" id="question5">
+                      <div class="wrapper_quiz">
+                        <label for="v5">5</label>
+                         <p>둘 중 고른다면</p>
+                      </div>
+                      <div id="radioBtn" class="wrapper_answer">
+                        <a class="answer_btn answerBtn" data-toggle="v5" data-title="h">의미 있는 책</a>
+                        <a class="answer_btn answerBtn" data-toggle="v5" data-title="e">재미있는 책</a>
+                      </div>  
+                      <input type="hidden" name="v5" id="v5" value="e">
+                  </div>
+
+                  <div class="question" id="question6">
+                      <div class="wrapper_quiz">
+                      <label for="v6">
+                          6</label>
+                          <p>내가 더 분노하는 때는?</p>
+                      </div>
+
+                      <div id="radioBtn" class="wrapper_answer">
+                        <a class="answer_btn answerBtn" data-toggle="v6" data-title="n">부조리를 느낄 때</a>
+                        <a class="answer_btn answerBtn" data-toggle="v6" data-title="r">불의를 보았을 때</a>
+                      </div>  
+                      <input type="hidden" name="v6" id="v6" value="s">
+                  </div>
+
+                  <div class="question" id="question7">
+                      <div class="wrapper_quiz">
+                      <label for="v7">
+                          7</label>
+                          <p>더 와닿는 말은?</p>
+                      </div>
+                      <div id="radioBtn" class="wrapper_answer">
+                        <a class="answer_btn answerBtn" data-toggle="v7" data-title="g"> 평등을 위한 실천</a>
+                        <a class="answer_btn answerBtn" data-toggle="v7" data-title="f">페미니즘 혁명</a>
+                      </div>  
+                      <input type="hidden" name="v7" id="v7" value="t">
+                  </div>
+
+                  <div class="question" id="question8">
+                      <div class="wrapper_quiz">
+                      <label for="v8">
+                          8</label>
+                          <p>더 기쁜 말은?</p>
+                      </div>
+                      <div id="radioBtn" class="wrapper_answer">
+                        <a class="answer_btn answerBtn" data-toggle="v8" data-title="i">어떻게 그런 생각을 했어? 진짜 대단하다.</a>
+                        <a class="answer_btn answerBtn" data-toggle="v8" data-title="m">너 오면 무조건 재밌지. 꼭 와야 돼!</a>
+                      </div>  
+                      <input type="hidden" name="v8" id="v8" value="j">
+                  </div>
+
+                  <div class="question" id="question9">
+                      <div class="wrapper_quiz">
+                      <label for="v9">
+                          9</label>
+                          <p>더 끌리는 문장은?</p>
+                      </div>
+                      <div id="radioBtn" class="wrapper_answer">              
+                        <a class="answer_btn answerBtn" data-toggle="v9" data-title="e">“애매한 태도에 굴하지 말자.”</a>
+                        <a class="answer_btn answerBtn" data-toggle="v9" data-title="h">“평이한 글에 속임수가 있다.”</a>
+                      </div>  
+                      <input type="hidden" name="v9" id="v9" value="e">
+                  </div>
+
+                  <div class="question" id="question10">
+                      <div class="wrapper_quiz">
+                      <label for="v10">
+                          10</label>
+                          <p>나는 지인의 성차별적 언행을</p>
+                      </div>
+                      <div id="radioBtn" class="wrapper_answer">
+                        <a class="answer_btn answerBtn" data-toggle="v10" data-title="g">적절히 넘길 줄 아는 편~</a>
+                        <a class="answer_btn answerBtn" data-toggle="v10" data-title="f">  용서 못 해!!!</a>
+                      </div>  
+                      <input type="hidden" name="v10" id="v10" value="s">
+                  </div>
+
+                  <div class="question" id="question11">
+                      <div class="wrapper_quiz">
+                      <label for="v11">
+                          11</label>
+                          <p>더 끌리는 문장은?</p>
+                      </div>
+                      <div id="radioBtn" class="wrapper_answer">
+                        <a class="answer_btn answerBtn" data-toggle="v11" data-title="r">“아이 낳지 않는 것이 여성의 힘”</a>
+                        <a class="answer_btn answerBtn" data-toggle="v11" data-title="n">“어차피 한 번은 죽어야 한다”</a>
+                      </div>  
+                      <input type="hidden" name="v11" id="v11" value="t">
+                  </div>
+
+                  <div class="question" id="question12">
+                      <div class="wrapper_quiz">
+                      <label for="v12">
+                          12</label>
+                          <p>고난과 역경은</p>
+                      </div>
+                      <div id="radioBtn" class="wrapper_answer">
+                        <a class="answer_btn answerBtn" data-toggle="v12" data-title="m">소설에서만 보고 싶다</a>
+                        <a class="answer_btn answerBtn" data-toggle="v12" data-title="i">인간을 성장시킨다</a>
+                          <div><button class="footer_btn" id="submit">결과 보기</button></div>
+                      </div>  
+                      <input type="hidden" name="v12" id="v12" value="j">
+                  </div>
+
+                  
+              </div>        
               
-              <div id="radioBtn" class="wrapper_answer">
-                <a class="answer_btn" data-toggle="v6" data-title="n">부조리를 느낄 때</a>
-                <a class="answer_btn" data-toggle="v6" data-title="r">불의를 보았을 때</a>
-              </div>  
-              <input type="hidden" name="v6" id="v6" value="s">
-          </div>
-          
-          <div class="row input-group">
-              <div class="wrapper_quiz">
-              <label for="v7">
-                  7</label>
-                  <p>더 와닿는 말은?</p>
-              </div>
-              <div id="radioBtn" class="wrapper_answer">
-                <a class="answer_btn" data-toggle="v7" data-title="g"> 평등을 위한 실천</a>
-                <a class="answer_btn" data-toggle="v7" data-title="f">페미니즘 혁명</a>
-              </div>  
-              <input type="hidden" name="v7" id="v7" value="t">
-          </div>
-          
-          <div class="row input-group">
-              <div class="wrapper_quiz">
-              <label for="v8">
-                  8</label>
-                  <p>더 기쁜 말은?</p>
-              </div>
-              <div id="radioBtn" class="wrapper_answer">
-                <a class="answer_btn" data-toggle="v8" data-title="i">어떻게 그런 생각을 했어? 진짜 대단하다.</a>
-                <a class="answer_btn" data-toggle="v8" data-title="m">너 오면 무조건 재밌지. 꼭 와야 돼!</a>
-              </div>  
-              <input type="hidden" name="v8" id="v8" value="j">
-          </div>
-          
-          <div class="row input-group">
-              <div class="wrapper_quiz">
-              <label for="v9">
-                  9</label>
-                  <p>더 끌리는 문장은?</p>
-              </div>
-              <div id="radioBtn" class="wrapper_answer">              
-                <a class="answer_btn" data-toggle="v9" data-title="e">“애매한 태도에 굴하지 말자.”</a>
-                <a class="answer_btn" data-toggle="v9" data-title="h">“평이한 글에 속임수가 있다.”</a>
-              </div>  
-              <input type="hidden" name="v9" id="v9" value="e">
-          </div>
-          
-          <div class="row input-group">
-              <div class="wrapper_quiz">
-              <label for="v10">
-                  10</label>
-                  <p>나는 지인의 성차별적 언행을</p>
-              </div>
-              <div id="radioBtn" class="wrapper_answer">
-                <a class="answer_btn" data-toggle="v10" data-title="g">적절히 넘길 줄 아는 편~</a>
-                <a class="answer_btn" data-toggle="v10" data-title="f">  용서 못 해!!!</a>
-              </div>  
-              <input type="hidden" name="v10" id="v10" value="s">
-          </div>
-          
-          <div class="row input-group">
-              <div class="wrapper_quiz">
-              <label for="v11">
-                  11</label>
-                  <p>더 끌리는 문장은?</p>
-              </div>
-              <div id="radioBtn" class="wrapper_answer">
-                <a class="answer_btn" data-toggle="v11" data-title="r">“아이 낳지 않는 것이 여성의 힘”</a>
-                <a class="answer_btn" data-toggle="v11" data-title="n">“어차피 한 번은 죽어야 한다”</a>
-              </div>  
-              <input type="hidden" name="v11" id="v11" value="t">
-          </div>
-          
-          <div class="row input-group">
-              <div class="wrapper_quiz">
-              <label for="v12">
-                  12</label>
-                  <p>고난과 역경은</p>
-              </div>
-              <div id="radioBtn" class="wrapper_answer">
-                <a class="answer_btn" data-toggle="v12" data-title="m">소설에서만 보고 싶다</a>
-                <a class="answer_btn" data-toggle="v12" data-title="i">인간을 성장시킨다</a>
-              </div>  
-              <input type="hidden" name="v12" id="v12" value="j">
-          </div>
-          
-          
-      </div>        
-      <div>   
-         <button class="answer_btn" id="submit">결과 보기</button>
-      </div>
-  </form>
+          </form>
       
     
-    
+    </div>
 </div>
     
     

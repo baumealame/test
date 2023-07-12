@@ -1,8 +1,55 @@
 $(document).ready(function(){
-  //  $("#info").hide();
-  //  $("#links").hide();
-    $("#waarden").hide();
-    window.history.pushState({urlPath:'/index.html'}, "", "index.html");
+    var currentQuestion = 1;
+    var totalQuestions = 12;
+    
+    // 질문과 답변 영역 초기화
+    $(".question").hide();
+    showQuestion(currentQuestion);
+    
+    $("#prevBtn").hide();
+    $("#submit").hide();
+    
+    // 이전 버튼 클릭 시 이벤트 처리
+    $("#prevBtn").click(function(){
+        if (currentQuestion > 1) {
+            hideQuestion(currentQuestion);
+            currentQuestion--;
+            showQuestion(currentQuestion);
+            
+            // 첫 번째 질문이 아닌 경우에만 이전 버튼 보이기
+            if (currentQuestion === 1) {
+                $("#prevBtn").hide();
+            }
+        }
+    });
+    
+    // 다음 버튼 클릭 시 이벤트 처리
+    $(".answerBtn").click(function(){
+        if (currentQuestion < totalQuestions) {
+            hideQuestion(currentQuestion);
+            currentQuestion++;
+            showQuestion(currentQuestion);
+            
+            // 이전 버튼 보이기
+            $("#prevBtn").show();
+            
+        }// 마지막 질문이라면 결과 보기 버튼 활성화
+            if (currentQuestion === totalQuestions) {
+                $("#submit").show();
+            }
+    });
+    
+
+    
+    // 질문 보이기
+    function showQuestion(questionNumber) {
+        $("#question" + questionNumber).show();
+    }
+    
+    // 질문 숨기기
+    function hideQuestion(questionNumber) {
+        $("#question" + questionNumber).hide();
+    }
 });
 
 $('#radioBtn a').on('click', function(){
