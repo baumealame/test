@@ -47,7 +47,7 @@ $(document).ready(function(){
                 hideQuestion(currentQuestion);
             currentQuestion++;
             showQuestion(currentQuestion);
-            }, 700);
+            }, 500);
             
             // 이전 버튼 보이기
             $("#prevBtn").show();
@@ -107,29 +107,29 @@ if (H > E) {
     if (R > N) {
         if (F > G) {
             if (M > I) {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result01";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result01";
             } else {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result09";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result09";
             }
         } else {
             if (M > I) {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result05";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result05";
             } else {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result13";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result13";
             }
         }
     } else {
         if (F > G) {
             if (M > I) {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result03";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result03";
             } else {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result11";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result11";
             }
         } else {
             if (M > I) {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result07";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result07";
             } else {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result15";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result15";
             }
         }
     }
@@ -137,29 +137,29 @@ if (H > E) {
     if (R > N) {
         if (F > G) {
             if (M > I) {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result02";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result02";
             } else {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result10";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result10";
             }
         } else {
             if (M > I) {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result06";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result06";
             } else {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result14";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result14";
             }
         }
     } else {
         if (F > G) {
             if (M > I) {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result04";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result04";
             } else {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result12";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result12";
             }
         } else {
             if (M > I) {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result08";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result08";
             } else {
-                window.location.href = "http://www.baumealame.com/game/myreadertype/result16";
+                parent.window.location.href = "http://www.baumealame.com/game/myreadertype/result16";
             }
         }
     }
