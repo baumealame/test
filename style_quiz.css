@@ -170,13 +170,15 @@ a {color:#584c43;text-decoration: none;}
 .wrapper_quiz {
     position: fixed;
     width: calc(100% - 40px);
+    max-width: 500px;
     text-align: center;
     min-height: 300px;
     height: auto;
     display: block;
-    margin-bottom: auto;
+    margin: 80px auto auto auto;
     z-index: 1;
-    margin-top: 80px;}
+    left: 0;
+    right: 0;}
 
 .wrapper_quiz label{font-size:16px;line-height:36px;font-weight:500;background-color:#83ff90;width:36px;height:36px;display:inline-block;border-radius:50%;border:1px solid #7c7067}
 
@@ -193,6 +195,7 @@ a {color:#584c43;text-decoration: none;}
     text-align: center;
     z-index: 10;
     width: calc(100% - 40px);
+    max-width: 500px;
     padding-bottom: 20px;
     position: fixed;
     bottom: 0;
