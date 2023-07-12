@@ -200,14 +200,32 @@ a {color:#584c43;text-decoration: none;}
     color:#584c43;}
 
 .answer_btn:hover {
-    background-color:#584c43;
-    color:#f3f2ea;}
+    background-color:rgba(255,255,255,0.8);
+    color:#584c43;}
 
-.start_btn {width:100%}
+.start_btn {width:100%;background-color:#584c43;color:#f3f2ea;}
+.start_btn:hover {background-color:rgba(88,76,67,0.9);color:#f3f2ea;}
+.copy_button {width:100%}
 
 .active{background-color:#83ff90;color:#584c43;}
+.active:hover{background-color:#a6ffac;color:#584c43;}
 
+.bounce {
+  animation: bounce 2s ease infinite;
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
 
+.pulse {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+@keyframes pulse {
+  from { transform: scale(0.94); }
+  to { transform: scale(1); }
+}
 
 
 .container {
