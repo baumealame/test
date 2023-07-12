@@ -1,13 +1,25 @@
 $(document).ready(function(){
-    var currentQuestion = 1;
-    var totalQuestions = 12;
+    var currentQuestion = 0;
+    var totalQuestions = 13;
+    
+    
+    $("#quiz_heading").hide();
     
     // 질문과 답변 영역 초기화
     $(".question").hide();
     showQuestion(currentQuestion);
     
+    
     $("#prevBtn").hide();
-    $("#submit").hide();
+    
+    // 테스트 시작하기 버튼 클릭 시 이벤트 처리
+    $("#startBtn").click(function(){
+        currentQuestion = 1;
+        showQuestion(currentQuestion);
+        $("#start").hide();
+        $("#startBtn").hide();
+        $("#quiz_heading").show();
+    });
     
     // 이전 버튼 클릭 시 이벤트 처리
     $("#prevBtn").click(function(){
@@ -26,18 +38,21 @@ $(document).ready(function(){
     // 다음 버튼 클릭 시 이벤트 처리
     $(".answerBtn").click(function(){
         if (currentQuestion < totalQuestions) {
-            hideQuestion(currentQuestion);
+            
+            
+            // 0.5초 후에 다음 질문 표시
+            setTimeout(function() {
+                hideQuestion(currentQuestion);
             currentQuestion++;
             showQuestion(currentQuestion);
+            }, 700);
             
             // 이전 버튼 보이기
             $("#prevBtn").show();
             
-        }// 마지막 질문이라면 결과 보기 버튼 활성화
-            if (currentQuestion === totalQuestions) {
-                $("#submit").show();
-            }
+        }
     });
+    
     
 
     

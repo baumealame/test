@@ -14,12 +14,42 @@
 <body>
 
 <div class="wrapper_body">
-    <div class="wrapper_form">
+    <div id="quiz_heading">
+        <div id="prevBtn"><img src="img/icon_prev.png"></div>
+        <p class="quiz_title">페미니스트 독서 유형 테스트</p>
+        </div>
     
+    
+    <div class="wrapper_start">
+             <div class="form-group">
+                    <div class="start_page" id="start">
+                      <div class="wrapper_start_body">
+                        <p>페미니스트<br>독서 유형 테스트</p>
+                          <div class="quiz_desc">
+                              <p><span class="check">✓</span> 나는 어떤 페미니스트?</p>
+                              <p><span class="check">✓</span> 나는 어떤 유형의 독서가?</p>
+                              <p><span class="check">✓</span> 나와 맞는 책 추천받기까지!</p>
+                          </div>
+                          <img src="img/start_moni.png">
+                      </div>
+                      <div class="wrapper_answer">
+                        <button class="answer_btn start_btn" id="startBtn">시작하기</button>
+                      </div>  
+                  </div>
+        </div>
+    </div>
+    
+    
+    <div class="wrapper_form">
+        
         <form>
               <div class="form-group">
-                  <div id="prevBtn">이전</div>
+                  
                   <div class="question" id="question1">
+                      <div class="progressbar">
+                          <div class="bar01"></div>
+                      </div>
+                      
                       <div class="wrapper_quiz">
                         <label for="v1">1</label>
                         <p>나는 책을</p>
@@ -32,6 +62,9 @@
                   </div>
 
                   <div class="question" id="question2">
+                      <div class="progressbar">
+                          <div class="bar02"></div>
+                      </div>
                       <div class="wrapper_quiz">
                           <label for="v2">2</label>
                           <p>내가 더 단련하고 싶은 것은?</p>
@@ -44,6 +77,9 @@
                   </div>
 
                   <div class="question" id="question3">
+                      <div class="progressbar">
+                          <div class="bar03"></div>
+                      </div>
                       <div class="wrapper_quiz">
                           <label for="v3">3</label>
                           <p>페미니즘은</p>
@@ -56,6 +92,9 @@
                   </div>
 
                   <div class="question" id="question4">
+                      <div class="progressbar">
+                          <div class="bar04"></div>
+                      </div>
                       <div class="wrapper_quiz">
                           <label for="v4">4</label>
                           <p>더 공감되는 태도는</p>
@@ -68,6 +107,9 @@
                   </div>
 
                   <div class="question" id="question5">
+                      <div class="progressbar">
+                          <div class="bar05"></div>
+                      </div>
                       <div class="wrapper_quiz">
                         <label for="v5">5</label>
                          <p>둘 중 고른다면</p>
@@ -80,6 +122,9 @@
                   </div>
 
                   <div class="question" id="question6">
+                      <div class="progressbar">
+                          <div class="bar06"></div>
+                      </div>
                       <div class="wrapper_quiz">
                       <label for="v6">
                           6</label>
@@ -94,6 +139,9 @@
                   </div>
 
                   <div class="question" id="question7">
+                      <div class="progressbar">
+                          <div class="bar07"></div>
+                      </div>
                       <div class="wrapper_quiz">
                       <label for="v7">
                           7</label>
@@ -107,6 +155,9 @@
                   </div>
 
                   <div class="question" id="question8">
+                      <div class="progressbar">
+                          <div class="bar08"></div>
+                      </div>
                       <div class="wrapper_quiz">
                       <label for="v8">
                           8</label>
@@ -120,6 +171,9 @@
                   </div>
 
                   <div class="question" id="question9">
+                      <div class="progressbar">
+                          <div class="bar09"></div>
+                      </div>
                       <div class="wrapper_quiz">
                       <label for="v9">
                           9</label>
@@ -133,6 +187,9 @@
                   </div>
 
                   <div class="question" id="question10">
+                      <div class="progressbar">
+                          <div class="bar10"></div>
+                      </div>
                       <div class="wrapper_quiz">
                       <label for="v10">
                           10</label>
@@ -146,6 +203,9 @@
                   </div>
 
                   <div class="question" id="question11">
+                      <div class="progressbar">
+                          <div class="bar11"></div>
+                      </div>
                       <div class="wrapper_quiz">
                       <label for="v11">
                           11</label>
@@ -159,6 +219,9 @@
                   </div>
 
                   <div class="question" id="question12">
+                      <div class="progressbar">
+                          <div class="bar12"></div>
+                      </div>
                       <div class="wrapper_quiz">
                       <label for="v12">
                           12</label>
@@ -167,11 +230,18 @@
                       <div id="radioBtn" class="wrapper_answer">
                         <a class="answer_btn answerBtn" data-toggle="v12" data-title="m">소설에서만 보고 싶다</a>
                         <a class="answer_btn answerBtn" data-toggle="v12" data-title="i">인간을 성장시킨다</a>
-                          <div><button class="footer_btn" id="submit">결과 보기</button></div>
                       </div>  
                       <input type="hidden" name="v12" id="v12" value="j">
                   </div>
 
+                  <div class="question" id="question13">
+                      <div class="wrapper_quiz">
+                        <p>두구두구...</p>
+                      </div>
+                      <div id="radioBtn" class="wrapper_answer">
+                          <button class="answer_btn start_btn" id="submit">결과 보기</button>
+                          </div>
+                  </div>
                   
               </div>        
               
