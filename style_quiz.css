@@ -63,8 +63,8 @@ a {color:#584c43;text-decoration: none;}
 
 .recom_label {font-size:14px;line-height:24px;width:100%;margin:0 0 15px 0;padding:0;padding-bottom:5px;text-align: center;border-bottom:2px dotted rgba(124,112,103,0.5);color:rgba(124,112,103,1);}
 
-.wrapper_books img{width:25%;height:auto;margin-bottom:10px;border:1px solid #7c7067;border-radius:10px;display:inline-block;vertical-align: top;}
-.book_caption {display:inline-block;padding-left:15px;width:calc(75% - 30px);vertical-align: top;}
+.wrapper_books img{width:30%;height:auto;margin-bottom:10px;border:1px solid #7c7067;border-radius:10px;display:inline-block;vertical-align: top;}
+.book_caption {display:inline-block;padding-left:15px;width:calc(70% - 30px);vertical-align: top;}
 
 .wrapper_books .title {font-size:18px;line-height:27px;margin:0;}
 .wrapper_books .subtitle {font-size:13px;line-height:21px;margin:0;}
