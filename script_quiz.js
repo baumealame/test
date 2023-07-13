@@ -87,16 +87,16 @@ $('#radioBtn a').on('click', function(){
      //Berekenen waarden van de verschillende types
        $('#v1').val() == "h" ? H++ : E ++;
        $('#v2').val() == "r" ? R++ : N ++;
-       $('#v3').val() == "g" ? F++ : G ++;
+       $('#v3').val() == "f" ? F++ : G ++;
        $('#v4').val() == "m" ? M++ : I ++;
 
        $('#v5').val() == "h" ? H++ : E ++;
        $('#v6').val() == "r" ? R++ : N ++;
-       $('#v7').val() == "g" ? F++ : G ++;
+       $('#v7').val() == "f" ? F++ : G ++;
        $('#v8').val() == "m" ? M++ : I ++;
 
        $('#v9').val() == "h" ? H++ : E ++;
-       $('#v10').val() == "g" ? F++ : G ++;
+       $('#v10').val() == "f" ? F++ : G ++;
        $('#v11').val() == "r" ? R++ : N ++;
        $('#v12').val() == "m" ? M++ : I ++;
       
